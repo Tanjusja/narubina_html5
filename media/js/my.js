@@ -13,7 +13,7 @@ $(function(){
 		$('#header').css('background', 'url('+data+')');
 		},
 		'mouseout':function(){
-		$('#header').css('background','url(media/img/fon1.jpg)');
+		$('#header').css('background','url(media/img/numbers5.jpg)');
 		},
 		});
 		
