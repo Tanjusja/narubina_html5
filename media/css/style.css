@@ -1,0 +1,79 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+#header {
+background:url('../img/numbers5.jpg');
+height: 200px;
+}
+
+#header img {
+float: left;
+}
+
+#logotext{
+position: absolute;
+float: left;
+font-size: 50px;
+font-family: Source Sans, Tahoma;
+padding: 50px;
+color: black;
+left: 200px;
+}
+
+h2 {
+float: left;
+font-size: 50px;
+font-family: Source Sans, Tahoma;
+padding: 52px;
+color: white;
+display:inline;
+}
+
+.topmenu {
+display: flex; /*все вложенные элементы будут гибкими*/
+width: 100%;
+margin: 0 auto;
+}
+
+.topmenu a {
+flex: 1;
+display: block;
+padding: 10px 0;
+text-align: center;
+color: lightyellow;
+font-size: 15px;
+font-weight: bold;
+background: teal;
+border-right: solid 1px lightyellow;
+text-decoration: none;
+}
+
+.topmenu a:hover {
+background: lightyellow;
+color: black;
+}
+
+
+#footer{
+padding: 40px 0;
+margin-top: 400px;
+text-align: center;
+background: teal;
+color: white;
+}
+
+#footer a {
+color: lightyellow;
+}
+
+
+@media screen and (max-width: 600px) {/*для устройств <600 напишем отдельное свойство, добавляем стили для всех экранов, ширина которых <600*/
+.topmenu {
+flex-direction:column;
+}
+#header {
+height: 100px;
+}
+}
