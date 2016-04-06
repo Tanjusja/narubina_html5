@@ -30,6 +30,23 @@ padding: 52px;
 color: white;
 display:inline;
 }
+.call {
+	position: absolute;
+	width: 400px;
+	height: 50px;
+	display: inline;
+	right: 5px;
+}
+
+#tblock {
+font-size: 40px;
+font-family: Source Sans, Tahoma;
+padding: 5px;
+background-color: lightyellow;
+color: black;
+border: 2px solid teal;
+border-radius: 10px;
+}
 
 .topmenu {
 display: flex; /*все вложенные элементы будут гибкими*/
@@ -55,6 +72,9 @@ background: lightyellow;
 color: black;
 }
 
+.img_main {
+	padding-right: 15px;
+}
 
 #footer{
 padding: 40px 0;
